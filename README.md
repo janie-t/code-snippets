@@ -79,5 +79,24 @@ function LetterCapitalize(str) {
 // keep this function call here 
 LetterCapitalize('hi there how are you'); //Hi There How Are You  
 ```
+##Check for simple symbols in a string
+```
+function SimpleSymbols(str) { 
+    var newString = "=" + str + "=";
+    for (var i=0; i<newString.length; i++){
+        if(newString[i].match(/[a-z]/i) !== null) {
+            if(newString[i-1] != "+" || newString[i+1] != "+") {
+                return false;
+            }
+        }
+    } 
+  return true; 
+         
+}
+   
+// keep this function call here 
+SimpleSymbols("+d+=3=+s+"); //returns true
+```
+
 
 
