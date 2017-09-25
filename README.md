@@ -64,7 +64,7 @@ function SimpleAdding(num) {
 }
    
 // keep this function call here 
-SimpleAdding(readline());                            
+SimpleAdding(12); //answer is 78                            
 
 //  return (num*(num+1))/2;
 // this is an algorithm for finding the sum of a series of numbers
