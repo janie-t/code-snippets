@@ -51,7 +51,24 @@ function LongestWord(sen) {
 // keep this function call here 
 LongestWord("what is the longest word?");   
 ```
+##Finding the sum of numbers in a series
+```
+function SimpleAdding(num) { 
+    var sum = 0;
+    for (var i=1; i <= num; i++) {
+        sum = sum + i;
+    }
+  // code goes here  
+  return sum; 
+         
+}
+   
+// keep this function call here 
+SimpleAdding(readline());                            
 
+//  return (num*(num+1))/2;
+// this is an algorithm for finding the sum of a series of numbers
+```
 
 
 
