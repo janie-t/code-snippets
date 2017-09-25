@@ -70,5 +70,14 @@ SimpleAdding(12); //answer is 78
 // this is an algorithm for finding the sum of a series of numbers
 ```
 
+##Capitalize the first letter of each word
+```
+function LetterCapitalize(str) { 
+   return str.replace(/\b\w/g, l => l.toUpperCase());
+}
+   
+// keep this function call here 
+LetterCapitalize('hi there how are you'); //Hi There How Are You  
+```
 
 
